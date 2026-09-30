@@ -1,7 +1,7 @@
 package banco;
 
 import java.time.LocalDateTime;
-
+/** Entidad que maneja los movimientos de las cuentas de un Banco*/
 public class Movimiento {
 
     private final String tipo;
@@ -26,7 +26,7 @@ public class Movimiento {
         return fecha;
     }
 
-    @Override
+    @Override/** guarda la información del movimiento en  un String*/
     public String toString() {
         return "\nTipo: "+tipo+"\nMonto :"+monto+"\nFecha"+fecha;
     }
