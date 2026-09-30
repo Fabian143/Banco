@@ -1,7 +1,5 @@
 package banco;
-
 public interface Rentable {
-	 double calcularInteres();
-	 
-	 
+	\** Metodo que permite  a los que implementen rentable que pueda calcular un interes*\
+	 double calcularInteres();	 
 }
