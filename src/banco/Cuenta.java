@@ -1,7 +1,7 @@
 package banco;
 
 import java.util.ArrayList;
-
+/** Entidad que maneja las cuentas de un banco */
 public abstract class Cuenta {
     \\ el contador es un atributo static ya que este solo va ser usado para hacer operaciones dentro de la clase
     private static int contador = 1;
